@@ -1,7 +1,7 @@
 import requests
 
 def get_sms_delivery_report(api_key, email, request_id):
-    url = "https://api.umeskiasoftwares.com/api/v1/smsdelivery"
+    url = "https://api.umeskiasoftwares.com/api/v1/smsdelivery"  //replace with your actual URL
     headers = {
         "Content-Type": "application/json"
     }
