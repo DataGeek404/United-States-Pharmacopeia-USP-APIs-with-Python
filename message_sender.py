@@ -1,7 +1,7 @@
 import requests
 
 def send_sms(api_key, email, sender_id, message, phone):
-    url = "https://api.umeskiasoftwares.com/api/v1/sms"
+    url = "https://api.umeskiasoftwares.com/api/v1/sms" //replace with your actual URL
     headers = {
         "Content-Type": "application/json"
     }
@@ -25,10 +25,10 @@ def send_sms(api_key, email, sender_id, message, phone):
 
 # Example usage:
 api_key = "VE5MTlkzRk06MTlwNjlkZWM="
-email = "example@gmail.com"
+email = "kibejay61@gmail.com"
 sender_id = "UMS_SMS"
 message = "UMS SMS Api Test Message"
-phone = "0798765432"
+phone = "0769002525"
 
 response = send_sms(api_key, email, sender_id, message, phone)
 print(response)
