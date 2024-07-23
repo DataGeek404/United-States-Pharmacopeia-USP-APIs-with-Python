@@ -1,7 +1,7 @@
 import requests
 
 def get_sms_balance(api_key, email):
-    url = "https://api.umeskiasoftwares.com/api/v1/smsbalance"
+    url = "https://api.umeskiasoftwares.com/api/v1/smsbalance"  //replace with your actual URL
     headers = {
         "Content-Type": "application/json"
     }
